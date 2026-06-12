@@ -12,7 +12,13 @@
 
 ## 下載方式（Claude Code）
 
+把這段貼給 Claude Code（任何電腦皆可，不需登入 GitHub）：
+
 ```
-幫我把 https://github.com/nicolas5288-commits/biotree 這個 repo
-clone 到 ~/Downloads/bio tree/，如果已存在就 pull 更新。
+幫我下載 BioTree 工具包：
+
+如果 "$HOME/Downloads/bio tree" 不存在，執行
+  git clone https://github.com/nicolas5288-commits/biotree.git "$HOME/Downloads/bio tree"
+如果已存在且是 git repo，cd 進去執行 git pull 更新。
+完成後列出 5 個資料夾各自的檔案數量給我確認。
 ```
